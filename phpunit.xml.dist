@@ -14,14 +14,14 @@
     </logging>
 	<testsuites>
 		<testsuite name="Shunt Test Suite">
-			<directory suffix="Test.php">src/League/Shunt/Tests</directory>
+			<directory suffix="Test.php">src/Tests</directory>
 		</testsuite>
 	</testsuites>
 	<filter>
         <whitelist addUncoveredFilesFromWhitelist="true">
-            <directory suffix=".php">src/League</directory>
+            <directory suffix=".php">src</directory>
 		    <exclude>
-		      <directory suffix=".php">src/League/Shunt/Tests</directory>
+		      <directory suffix=".php">src/Tests</directory>
 		    </exclude>
         </whitelist>
 	</filter>

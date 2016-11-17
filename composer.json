@@ -28,7 +28,7 @@
         "league/grunt": "*"
     },
     "autoload": {
-        "psr-0": { "League\\Shunt": "src/" }
+        "psr-4": { "League\\Shunt\\": "src/" }
     },
     "bin": ["bin/shunt"]
 }
