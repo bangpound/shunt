@@ -1,9 +1,6 @@
 language: php
 
 php:
-  - 5.3
-  - 5.4
-  - 5.5
   - 5.6
 
 before_script:
@@ -19,4 +16,4 @@ before_script:
   - sudo usermod -d /home/shunt shunt
   - composer install
 
-script: phpunit --configuration travis.xml.dist
+script: phpunit --configuration phpunit.xml.dist
